@@ -1,33 +1,35 @@
 {
   "title": "Pumpkin-Shaped Pumpkin Bread",
   "difficulty": "Intermediate",
-  "Author": "Food Network",
-  "thumbnail": "pumpkin-bread.jpg",
+  "author": "Food Network",
+  "thumbnail": "../images/pumpkin-bread.jpeg",
+  "contentSource": "https://www.foodnetwork.com/recipes/food-network-kitchen/pumpkin-shaped-pumpkin-bread-8849742",
   "recipe-time": [40, 89, 129],
-  "ingredients-list": {
+  "yield":"1 loaf",
+  "ingredientsList": {
     "bread": [
-      "1/4 cup whole milk, warmed to 110 degrees F",
-      "Two 1/4-ounce packets active-dry yeast (4 1/2 teaspoons)",
-      "3/4 cup pure pumpkin puree",
-      "1/4 cup packed light brown sugar",
-      "2 large eggs",
-      "1 tablespoon vegetable oil, plus more for greasing the bowl",
-      "3 cups all-purpose flour, plus more for dusting (see Cook's Note)",
-      "1 teaspoon ground cinnamon",
-      "1 teaspoon kosher salt",
-      "1 cinnamon stick"
+      {"amount":"1/4 cup", "name" : "whole milk", "direction": "warmed to 110 degrees F"},
+      {"amount":"Two 1/4-ounce packets", "ingredient": "active-dry yeast", "(4 1/2 teaspoons)"},
+      {"amount":"3/4 cup","name": "pure pumpkin puree"},
+      {"amount":"1/4 cup packed", "name":"light brown sugar"},
+      {"amount":"2","name": "large eggs"},
+      {"amount":"1 tablespoon", "name":"vegetable oil", "direction":"plus more for greasing the bowl"},
+      {"amount":"3 cups","name": "all-purpose flour", "direction":"plus more for dusting (see Cook's Note)"},
+      {"amount":"1 teaspoon", "name":"ground cinnamon"},
+      {"amount":"1 teaspoon", "name":"kosher salt"},
+      {"amount":"1", "name":"cinnamon stick"}
     ],
-    "spiced-pumpkin-butter": [
-      "1 cup pure pumpkin puree",
-      "1/3 cup heavy cream",
-      "1/4 cup packed light brown sugar",
-      "2 tablespoons maple syrup",
-      "1 teaspoon ground cinnamon",
-      "Kosher salt"
+    "spicedPumpkinButter": [
+      {"amount":"1 cup", "name":"pure pumpkin puree"},
+      {"amount":"1/3 cup", "name":"heavy cream"},
+      {"amount":"1/4 cup", "name":"packed light brown sugar"},
+      {"amount":"2 tablespoons", "name":"maple syrup"},
+      {"amount":"1 teaspoon", "name":"ground cinnamon"},
+      {"amount":"A pinch of","name":"Kosher salt"}
     ]
   },
-  "utensils-cookware": {
-    "Utensils": ["pumpkin-shaped bread mould", "kitchen twine"]
+  "utensilsCookware": {
+    "utensils": ["pumpkin-shaped bread mould", "kitchen twine"]
   },
   "instructions": {
     "step": [
