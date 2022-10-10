@@ -6,3 +6,8 @@
 //   b. Create the recipe sidebar
 //   c. Create the main article instructions div
 //   d. Insert the photo
+
+// import data from "../json/recipe-index.json" assert { type: "JSON" };
+fetch("../JSON/recipe-index.json")
+  .then((response) => response.json())
+  .then((json) => console.log(json));
