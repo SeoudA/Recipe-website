@@ -1,0 +1,27 @@
+.template-container {
+  display: flex;
+  align-self: center;
+  /* align-content: center; */
+  flex-flow: column wrap;
+}
+
+#articleBody {
+  display: flex;
+  width: 1500px;
+  height: 3500px;
+  border: 2px;
+  flex-direction: column;
+}
+
+#recipeAuthor {
+  display: flex;
+}
+
+#infoSidebar {
+  display: flex;
+  /* align-self: flex-start; */
+}
+
+.recipe-sidebar {
+  display: flex;
+}
